@@ -1,0 +1,91 @@
+# AutoHotkey specific files
+*.exe
+*.com
+*.dll
+*.log
+*.tmp
+
+# Compiled AutoHotkey scripts
+*.ahk.exe
+
+# AutoHotkey backup files
+*.bak
+*.backup
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Windows system files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Windows shortcuts
+*.lnk
+
+# Temporary files
+*.temp
+*.tmp
+temp/
+tmp/
+
+# Log files
+*.log
+logs/
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+
+# Archive files (unless specifically needed)
+*.zip
+*.rar
+*.7z
+*.tar
+*.gz
+
+# Personal configuration files (optional - uncomment if you don't want to share)
+# config.ini
+# settings.ini
+# personal-hotkeys.ahk
+
+# Test files
+test/
+tests/
+*test.ahk
+*_test.ahk
+
+# Documentation build files
+docs/_build/
+docs/build/
+
+# Node.js (if using any JS tools)
+node_modules/
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+
+# Python (if using any Python tools)
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+.env
+
+# JetBrains IDEs
+.idea/
+*.iml
+*.ipr
+*.iws
