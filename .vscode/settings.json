@@ -1,0 +1,14 @@
+{
+    "editor.tabSize": 4,
+    "editor.insertSpaces": true,
+    "editor.detectIndentation": false,
+    "editor.indentSize": 4,
+    "emeraldwalk.runonsave": {
+        "commands": [
+            {
+                "match": "\\.ahk$",
+                "cmd": "powershell -Command \"& '${file}'\""
+            }
+        ]
+    }
+}
