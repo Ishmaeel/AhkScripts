@@ -3,8 +3,7 @@ SendMode Input
 #SingleInstance Force
 #Requires AutoHotkey v1
 
-; State variable to track HUD visibility
-HudHidden := false
+MouseMove, 0, 0
 
 #IfWinActive ahk_exe Hollow Knight Silksong.exe
 
@@ -20,14 +19,15 @@ HudHidden := false
         HideHud()
     return
 
-    Numpad0::
-    NumpadIns::
+    Ctrl::
         FireToolOne()
     return
 
     FireToolOne()
     {
-        Send {Up down}{RCtrl}{Up up}
+        Send {Up down}{RShift down}
+        Sleep 10
+        Send {RShift up}{Up up}
     }
 
     ShowInventory()
